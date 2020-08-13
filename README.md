@@ -19,10 +19,12 @@ The source code can be divided into two types:
   - [training_DDPG.py](training_DDPG.py): main script to conduct the DDPG training
   - [training_env.py](training_env.py): the environment that connects the DDPG agent and the vrep simulation (GUI mode)
   - [simple_enjoy.py](simple_enjoy.py): load a saved DDPG model and run it in vrep simulation environment for (GUI mode) visualization
+  - [ballbot_for_train.ttt](ballbot_for_train.ttt): ttt scence file for vrep to open during training time
 - Files used to conduct auto test for saved DDPG models by contacting with vrep via HeadLess mode
   - [autotest_DDPG.py](autotest_DDPG.py): load a saved DDPG model and test it with different initial states automatically in vrep simulation (HeadLess mode)
   - [autotest_traditional.py](autotest_traditional.py): test the traditional controller with different initial states automatically in vrep simulation (HeadLess mode)
   - [autotest_env.py](autotest_env.py): the environment that connects the DDPG agent and the vrep simulation (HeadLess mode)
+  - [ballbot_for_autotest.ttt](ballbot_for_autotest.ttt): ttt scence file for vrep to open during test time
 
 ### How to achieve automatical test for vrep
 
