@@ -43,3 +43,7 @@ To automatically test a DDPG based controller, first make sure the saved model f
 ```c
 python autotest_DDPG.py
 ```
+
+### Demo videos
+
+We provide four demo videos to show the performance of traditional/DDPG controller in vrep simulated environment, starting at different initial positions. Videos are in ```./demo_videos``` directory. 
